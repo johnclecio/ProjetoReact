@@ -1,4 +1,4 @@
-function Menu() {
+function TechJourney() {
   return (
     <section className="bg-linear-to-r from-gray-900 to-blue-700 py-20">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
@@ -22,7 +22,7 @@ function Menu() {
         <div className="md:w-1/2 flex justify-center">
           <img 
             src="https://i.pinimg.com/1200x/7e/34/a0/7e34a08ec6f2d54c3da70cbd74449d4f.jpg"
-            alt="Pet estiloso da loja"
+            alt="imagem-perfil"
             className="w-80 md:w-112.5 drop-shadow-2xl rounded-4xl"
             />
         </div>
@@ -32,4 +32,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default TechJourney;

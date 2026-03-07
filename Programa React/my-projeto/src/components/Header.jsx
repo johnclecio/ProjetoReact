@@ -20,7 +20,7 @@ function Header() {
             </button>
 
             <nav className="flex flex-col space-y-6">
-              <a href="#home" className="hover:text-indigo-600">Sobre</a>
+              <a href="#sobre" className="hover:text-indigo-600">Sobre</a>
               <a href="#projetos" className="hover:text-indigo-600">Projetos</a>
               <a href="#contato" className="hover:text-indigo-600">Contato</a>
             </nav>
@@ -49,7 +49,7 @@ function Header() {
 
             {/* Menu Desktop */}
             <div className="hidden lg:flex gap-8 text-gray-700 font-medium">
-              <a href="#home" className="hover:text-indigo-600">Sobre</a>
+              <a href="#sobre" className="hover:text-indigo-600">Sobre</a>
               <a href="#projetos" className="hover:text-indigo-600">Projeto</a>
               <a href="#contato" className="hover:text-indigo-600">Contato</a>
             </div>

@@ -6,9 +6,25 @@ function GithubRepos(){
 
   useEffect(() => {
 
-    fetch("https://api.github.com/users/johnclecio/repos")
-      .then(res => res.json())
-      .then(data => setRepos(data));
+    async function carregarRepos() {
+
+      const reposEscolhidos = [
+        "demo-dao-jdbc",
+        "listaDeTarefa",
+        "introducao-c"
+      ];
+
+      const res = await fetch("https://api.github.com/users/johnclecio/repos");
+      const data = await res.json();
+
+      const filtrados = data.filter(repo =>
+        reposEscolhidos.includes(repo.name)
+      );
+
+      setRepos(filtrados);
+    }
+
+    carregarRepos();
 
   }, []);
 
@@ -53,6 +69,7 @@ function GithubRepos(){
               <a
                 href={repo.html_url}
                 target="_blank"
+                rel="noreferrer"
                 className="mt-4 inline-block text-indigo-600 hover:underline"
               >
                 Ver no GitHub →

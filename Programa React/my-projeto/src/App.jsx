@@ -1,6 +1,7 @@
 import GithubLanguages from "./components/GitHubLanguages";
 import Header from "./components/Header";
-import Menu from "./components/Menu";
+import TechJourney from "./components/TechJourney";
+import Sobre from "./components/Sobre";
  
 
 
@@ -15,7 +16,8 @@ function App() {
         /> 
 
       <main>
-        <Menu />
+        <TechJourney />
+        <Sobre/>
         <GithubLanguages/>
       </main>
     </>
