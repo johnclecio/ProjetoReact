@@ -2,8 +2,8 @@
 
 function Footer(){
     return(
-        <footer class="py-20 bg-linear-to-r from-rose-50 via-white to-yellow-50">
-            <p class="text-center">&copy; Todos os direitos reservados 2026</p>
+        <footer className="py-20 bg-black">
+            <p className="text-center text-white">&copy; Todos os direitos reservados 2026</p>
         </footer>
 
     )
