@@ -29,9 +29,7 @@ src
 * Seção de contato
 * Layout responsivo
 
-## 📸 Preview
 
-![Preview do Projeto](src/assets/previa.png)
 
 ## 🌐 Deploy
 
